@@ -10,6 +10,6 @@ def city_country(city, country):
     return city_country
 
 city_country("Santiago", "Chile")
-city_country("Mdarid", "Spain") # Hala country
-city_country("Barcelona", "Spain") # Visca barca
+city_country("Mdarid", "Spain") # Hala Madrid
+city_country("Barcelona", "Spain") # Visca Barca
 
