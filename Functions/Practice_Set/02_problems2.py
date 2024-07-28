@@ -12,4 +12,3 @@ def city_country(city, country):
 city_country("Santiago", "Chile")
 city_country("Mdarid", "Spain") # Hala Madrid
 city_country("Barcelona", "Spain") # Visca Barca
-
