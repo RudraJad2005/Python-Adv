@@ -28,7 +28,7 @@ print(musician)
 # In below example you can add age parameter as an option in a funnction.
 
 def build_person(first_name, last_name, age=None):
-    """Return a dictionary of information abouta person"""
+    """Return a dictionary of information about person"""
     person =  {'first_name': first_name, 'last_name': last_name}
     if age:
         person['age'] = age
