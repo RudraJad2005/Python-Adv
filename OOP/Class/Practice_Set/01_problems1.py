@@ -4,31 +4,31 @@
 # Make an instance called restaurant from your class. Print the two attributes individually, and then call both methods
 
 
-# class Restaurant:
-#     def __init__(self, restaurant_name, dish_type):
-#         self.restaurant_name = restaurant_name
-#         self.dish_type = dish_type
+class Restaurant:
+    def __init__(self, restaurant_name, dish_type):
+        self.restaurant_name = restaurant_name
+        self.dish_type = dish_type
     
-#     def describe_restaurant(self):
-#         print(f"Your fav restaurant name is: {self.restaurant_name} and your fav dish is: {self.dish_type}")
+    def describe_restaurant(self):
+        print(f"Your fav restaurant name is: {self.restaurant_name} and your fav dish is: {self.dish_type}")
 
-#     def open_restaurant(self):
-#         print(f"Your fav restaurant {self.restaurant_name} is: OPEN")
+    def open_restaurant(self):
+        print(f"Your fav restaurant {self.restaurant_name} is: OPEN")
 
-# # Creating instances 
-# restaurant = Restaurant('MacDonald', "Ckicken nugget's")
-# your_fav_restaurant = Restaurant('Pizza Hut', 'Cheese Pizza')
+# Creating instances 
+restaurant = Restaurant('MacDonald', "Ckicken nugget's")
+your_fav_restaurant = Restaurant('Pizza Hut', 'Cheese Pizza')
 
-# # Accessing attributes
-# print(restaurant.restaurant_name)
-# print(restaurant.dish_type)
+# Accessing attributes
+print(restaurant.restaurant_name)
+print(restaurant.dish_type)
 
-# # Calling methods
-# restaurant.describe_restaurant()
-# restaurant.open_restaurant()
+# Calling methods
+restaurant.describe_restaurant()
+restaurant.open_restaurant()
 
-# your_fav_restaurant.describe_restaurant()
-# your_fav_restaurant.open_restaurant()
+your_fav_restaurant.describe_restaurant()
+your_fav_restaurant.open_restaurant()
 
 
 # QUESTION: 2
