@@ -2,7 +2,7 @@
 class Dog:
 
     def __init__(self, name, age):# -----> This is called an __init__() method. This method has two leading underscores and two trailing underscores.
-        # ---> We defined init method to have three parameters: self, name, age. The self paramater is required in init method, and it must come first, before the other parameters 
+        # ---> We defined init method to have three parameters: self, name, age. The self paramater is required in __init__() method, and it must come first, before the other parameters 
         # -----> The two variables defined in the body of the __init__() method each have the prefix self. Any variable prefixed with self is available to every method in the class, and we'll also be able to access these variables through any instances created from the class.
         self.name = name # -------> The self.name = name takes the value associated with the prarameter name and assigns it to the variable name, which is then attached to the instance begin created.
         self.age = age  
