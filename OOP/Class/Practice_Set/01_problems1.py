@@ -44,6 +44,6 @@ class User:
         print(f"User Name: {self.first_name}\n Last Name: {self.last_name}\n Date of Birth: {self.DOB}\n Your email: {self.email}\n Your passward: {self.password}")
 
 
-make_user = User('Rudra', 'Jadhav', '13/08/2005', 'rudrajad2005@gmail.com', 'Rudra@2005')
+make_user = User('Rudra', 'Jadhav', '13/08/2005', 'rudrajad@gmail.com', 'YOYOBUNTAY :)')
 
 make_user.describe_user()
